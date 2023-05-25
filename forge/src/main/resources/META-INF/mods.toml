@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+#issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "clearvoid"
+version = "${version}"
+displayName = "Clear Void"
+authors = "yezhiyi9670"
+description = '''
+Remove the black bottom part of the skybox.
+'''
+#logoFile = ""
+
+[[dependencies.clearvoid]]
+modId = "forge"
+mandatory = true
+versionRange = "[39,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.clearvoid]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.1,)"
+ordering = "NONE"
+side = "BOTH"

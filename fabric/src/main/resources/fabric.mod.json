@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "clearvoid",
+  "version": "${version}",
+  "name": "Clear Void",
+  "description": "Remove the black bottom part of the skybox.",
+  "authors": [
+    "yezhiyi9670"
+  ],
+  "contact": {
+    "sources": "https://github.com/yezhiyi9670/clear-void"
+  },
+  "license": "MIT License",
+  "icon": "assets/clearvoid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "yezhiyi9670.clearvoid.fabric.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "clearvoid.mixins.json",
+    "clearvoid-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.18.1"
+  }
+}
