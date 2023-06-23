@@ -14,7 +14,7 @@ In vanilla Minecraft, when playing floating-islands worlds, you'll find that the
 
 ![](vanilla-issue.png)
 
-This mod fixes that. The void will no longer suddenly turn black. Instead, it will gardually become dark when you go through Y levels at around Y=32.
+This mod fixes that. The void will no longer suddenly turn black. Instead, it will gardually become dark when you go through Y levels below Y=-32.
 
 Plans
 -----
