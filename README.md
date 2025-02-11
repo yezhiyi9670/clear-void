@@ -3,7 +3,7 @@ Clear Void
 
 [Download me on Modrinth](https://modrinth.com/mod/clear-void)
 
-> [Sponsor](https://afdian.net/a/yezhiyi9670) if you like this project.
+> [Sponsor](https://afdian.com/a/yezhiyi9670) if you like this project.
 
 This is a simple mod that removes the pitch black bottom half of the skybox. You'll probably need this if you play skyblock-like modpacks.
 
