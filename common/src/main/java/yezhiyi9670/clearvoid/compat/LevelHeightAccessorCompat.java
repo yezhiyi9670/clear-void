@@ -11,7 +11,7 @@ public class LevelHeightAccessorCompat {
     }
 
     static {
-        String version = SharedConstants.getCurrentVersion().getName();
+        String version = WorldVersionCompat.getName(SharedConstants.getCurrentVersion());
         USES_COMPAT_1_21_2 = version.compareTo("1.21.2") >= 0;
     }
 
