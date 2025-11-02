@@ -16,7 +16,7 @@ public class MixinClientWorldProperties {
      */
     @Overwrite
     public double getHorizonHeight(LevelHeightAccessor levelHeightAccessor) {
-        return levelHeightAccessor.getMinBuildHeight() - 64.0;
+        return levelHeightAccessor.getMinY() - 64.0;
     }
 
 }
