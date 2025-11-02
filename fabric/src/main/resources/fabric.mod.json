@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "id": "clearvoid",
   "version": "${version}",
-  "name": "Clear Void",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "yezhiyi9670",
+  "description": "Remove the black bottom part of the skybox. Intended for floating island worlds.",
   "authors": [
-    "Me!"
+    "yezhiyi9670"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/clear-void",
+    "sources": "https://github.com/yezhiyi9670/clear-void/"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/clearvoid/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "yezhiyi9670.clearvoid.fabric.ExampleModFabric"
@@ -27,7 +27,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.17.3",
-    "minecraft": "~1.21.1",
+    "minecraft": ">=1.21.1",
     "java": ">=21",
     "fabric-api": "*"
   },

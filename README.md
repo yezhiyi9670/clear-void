@@ -16,6 +16,8 @@ In vanilla Minecraft, when playing floating-islands worlds, you'll find that the
 
 With the mod, the void will no longer suddenly turn black. Instead, it will gardually become dark when you go through Y levels below Y=-32.
 
+_Actually it will, but at 64 blocks below the min build height, so you will not encounter it unless you are dying in the void._
+
 Reporting bugs
 -----
 
