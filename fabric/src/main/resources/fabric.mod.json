@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "clearvoid",
   "version": "${version}",
-  "name": "yezhiyi9670",
+  "name": "Clear Void",
   "description": "Remove the black bottom part of the skybox. Intended for floating island worlds.",
   "authors": [
     "yezhiyi9670"
