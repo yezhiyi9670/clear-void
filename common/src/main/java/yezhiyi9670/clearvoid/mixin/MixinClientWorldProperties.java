@@ -4,7 +4,6 @@ import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.level.LevelHeightAccessor;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
-import yezhiyi9670.clearvoid.compat.LevelHeightAccessorCompat;
 
 @Mixin(ClientLevel.ClientLevelData.class)
 public class MixinClientWorldProperties {
@@ -17,7 +16,7 @@ public class MixinClientWorldProperties {
      */
     @Overwrite
     public double getHorizonHeight(LevelHeightAccessor levelHeightAccessor) {
-        return LevelHeightAccessorCompat.getMinBuildHeight(levelHeightAccessor) - 64.0;
+        return levelHeightAccessor.getMinBuildHeight() - 64.0;
     }
 
 }
