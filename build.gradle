@@ -76,4 +76,5 @@ subprojects {
 
 forgix {
     autoRun = true
+    archiveBaseName = "$rootProject.archives_name-mc$rootProject.minecraft_version"
 }
