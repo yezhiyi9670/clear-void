@@ -1,7 +1,7 @@
 Clear Void
 =====
 
-> ⚠️ This branch is work-in-progress. Please add some patience.
+Download: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/clear-void) or [Modrinth](https://modrinth.com/mod/clear-void)
 
 > [Sponsor](https://afdian.com/a/yezhiyi9670) if you like this project.
 
