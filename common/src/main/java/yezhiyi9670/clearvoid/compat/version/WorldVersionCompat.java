@@ -1,10 +1,10 @@
-package yezhiyi9670.clearvoid.compat;
+package yezhiyi9670.clearvoid.compat.version;
 
 import net.minecraft.WorldVersion;
 import yezhiyi9670.clearvoid.compat.proxy.InterfaceProxyHandler;
 
 public class WorldVersionCompat {
-    public interface Compat_1_21_unknown {
+    private interface Compat_1_21_unknown {
         String name();
     }
 
